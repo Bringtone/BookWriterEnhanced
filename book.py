@@ -14,7 +14,7 @@ from datetime import datetime
 # ------------------------------
 # 1. SETUP: Environment, API client, and Supabase
 # ------------------------------
-load_dotenv(dotenv_path="C:/Users/user/PycharmProjects/BookWriterEnhanced/secret.env")  # Make sure your .env file contains SUPABASE_URL, SUPABASE_KEY, OPENAI_API_KEY, STREAMLIT_APP_PASSWORD
+load_dotenv()  # Make sure your .env file contains SUPABASE_URL, SUPABASE_KEY, OPENAI_API_KEY, STREAMLIT_APP_PASSWORD
 
 API_KEY = os.environ.get("OPENAI_API_KEY")
 VALID_PASSWORD = os.environ.get("STREAMLIT_APP_PASSWORD")
